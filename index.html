@@ -14,8 +14,8 @@
               <a href="#" class="brand-logo head-logo">LATENT.ME</a>
               <a href="#" data-activates="mobile-demo" class="button-collapse head-logo"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="">Login</a></li>
-                <li><a href="">Sign Up</a></li>
+                <li><a class="modal-trigger waves-effect waves-light btn" href="#modal_login">Login</a></li>
+                <li><a class="modal-trigger waves-effect waves-light btn" href="#modal_signup">Sign Up</a></li>
               </ul>
               <ul class="side-nav" id="mobile-demo">
                 <li><a href="">Login</a></li>
@@ -23,6 +23,54 @@
               </ul>
             </div>
         </nav>
+
+        <!-- Modal Structure -->
+        <div id="modal_login" class="modal">
+            <div align="center" class="modal-content">
+              <div class="row">
+                <form class="col l12 m12 s12">
+                    <div class="input-field">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input placeholder="Userame" id="username" type="text" class="validate">
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">vpn_key</i>
+                        <input placeholder="Password" id="password" type="password" class="validate">
+                    </div>
+                    <br>
+                    <div>
+                        <a class="waves-effect waves-light btn" type="submit">Login</a>
+                    </div>
+                </form>
+              </div>
+            </div>
+        </div>
+
+        <div id="modal_signup" class="modal">
+            <div align="center" class="modal-content">
+              <div class="row">
+                <form class="col l12 m12 s12">
+                    <div class="input-field">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input placeholder="Userame" id="username" type="text" class="validate">
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">vpn_key</i>
+                        <input placeholder="Password" id="password" type="password" class="validate">
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">vpn_key</i>
+                        <input placeholder="Confirm Password" id="password" type="password" class="validate">
+                    </div>
+                    <br>
+                    <div>
+                        <a class="waves-effect waves-light btn" type="submit">Sign Up</a>
+                    </div>
+                </form>
+              </div>
+            </div>
+        </div>
+
 
         <div class="row">
             <div class="col s12">

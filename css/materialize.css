@@ -2914,7 +2914,7 @@ ul.staggered-list li {
 
 footer.page-footer {
   color: #fff;
-  background-color: #ffca28;
+  background-color: #263238;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -7306,7 +7306,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #ffca28;
+  background-color: #263238;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -7973,6 +7973,7 @@ small {
   margin: 0 auto;
   width: 100%;
   white-space: nowrap;
+  padding-top: 0.5em;
 }
 
 .tabs .tab {
@@ -8411,7 +8412,7 @@ a.waves-effect .waves-ripple {
   background-color: #fafafa;
   padding: 0;
   max-height: 70%;
-  width: 55%;
+  width: 40%;
   margin: auto;
   overflow-y: auto;
   border-radius: 2px;
@@ -8429,7 +8430,7 @@ a.waves-effect .waves-ripple {
 }
 
 .modal .modal-content {
-  padding: 24px;
+  padding: 24px 24px 0 24px;
 }
 
 .modal .modal-close {
@@ -8465,12 +8466,12 @@ a.waves-effect .waves-ripple {
 
 .modal.modal-fixed-footer {
   padding: 0;
-  height: 70%;
+  height: 40%;
 }
 
 .modal.modal-fixed-footer .modal-content {
   position: absolute;
-  height: calc(100% - 56px);
+  /*height: calc(100% - 56px);*/
   max-height: 100%;
   width: 100%;
   overflow-y: auto;
