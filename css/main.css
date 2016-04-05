@@ -42,3 +42,52 @@
   border-bottom: 1px solid #eee;
   min-height: 140px;
 }
+
+.modal-content input{
+    width: 90%;
+}
+
+.modal-content h5{
+    text-align: left;
+}
+
+.login-modal{
+    height: 40%;
+}
+
+.banner-home{
+    background-image: url("../images/1.jpg");
+    height: 400px;
+    width: 99%;
+    color: #fff;
+    padding-top: 6em;
+    -webkit-filter: grayscale(50%);
+}
+
+.banner-2{
+    background-image: url("../images/2.jpg");
+    height: 400px;
+    width: 99%;
+    color: #fff;
+    padding-top: 6em;
+    -webkit-filter: grayscale(50%);
+}
+
+.banner-3{
+    background-image: url("../images/3.jpg");
+    height: 400px;
+    width: 99%;
+    color: #fff;
+    padding-top: 6em;
+    -webkit-filter: grayscale(50%);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+#home_disp, #prof_disp {
+    flex: 1 0 auto;
+}
